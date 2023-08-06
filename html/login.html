@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <title>Login</title>
 </head>
 <body>
   <section>
@@ -14,41 +15,12 @@
       <label for="">Senha: </label>
       <input type="password" name="senha" id="senha">
 
-      <a href="">Cadastre-se aqui!</a>
+      <a href="./cadastro.html">Cadastre-se aqui!</a>
 
       <button id="btn-login" type="button" onclick="validarLogin()">Login</button>
     </form>
     <script src="dados.js"></script>
     <script src="login.js"></script>
   </section>
-
-  <style>
-    :root {
-    font-size: 62.5%;
-    }
-
-    #formulario{
-      display: flex;
-      flex-direction: column;
-      width: 25%;
-      margin-inline: auto;
-      margin-block: 2rem;
-      font-size: 1.8rem;
-    }
-
-    input{
-      margin-block: 1rem;
-    }
-
-    #btn-login{
-      width: 12rem;
-      padding: 0.5rem;
-      margin-inline: auto;
-      margin-block: 2rem;
-      cursor: pointer;
-
-      border-radius: 1rem;
-    }
-  </style>
 </body>
 </html>

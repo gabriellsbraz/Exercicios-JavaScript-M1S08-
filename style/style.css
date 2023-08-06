@@ -1,0 +1,27 @@
+:root {
+  font-size: 62.5%;
+  }
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-inline: auto;
+    margin-block: 2rem;
+    font-size: 1.8rem;
+  }
+
+  input{
+    margin-block: 1rem;
+  }
+
+  #btn-login,
+  #btn-cadastro{
+    width: 12rem;
+    padding: 0.5rem;
+    margin-inline: auto;
+    margin-block: 2rem;
+    cursor: pointer;
+
+    border-radius: 1rem;
+  }
