@@ -1,4 +1,4 @@
-const usuarios = `
+let usuarios = `
   [
     {
       "nome": "Admin",

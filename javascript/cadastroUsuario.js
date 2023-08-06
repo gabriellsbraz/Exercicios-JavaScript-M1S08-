@@ -17,5 +17,7 @@ function cadastrarUsuario(event){
 
   listaUsuarios = JSON.stringify(listaUsuarios);
 
+  usuarios = listaUsuarios;
+
   return alert(`Usuário(a) ${nome} cadastrado(a) com sucesso!`)
 }
