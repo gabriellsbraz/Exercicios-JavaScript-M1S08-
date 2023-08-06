@@ -9,7 +9,7 @@
 <body>
   <section>
     <form action="" id="formulario">
-      <h1>Página de Login</h1>
+      <h1>Página de Cadastro</h1>
       <label for="">Nome: </label>
       <input type="text" name="nome" id="nome">
       <label for="">Usuario: </label>
@@ -17,8 +17,10 @@
       <label for="">Senha: </label>
       <input type="password" name="senha" id="senha">
 
-      <button id="btn-cadastro" type="button" onclick="validarCadastro()">Cadastrar</button>
+      <button id="btn-cadastro" type="submit" onclick="cadastrarUsuario(event)">Cadastre-se</button>
     </form>
   </section>
+  <script src="../javascript/dados.js"></script>
+  <script src="../javascript/cadastroUsuario.js"></script>
 </body>
 </html>
