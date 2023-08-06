@@ -7,17 +7,48 @@
 </head>
 <body>
   <section>
-    <h1>Página de Login</h1>
-    <form action="">
+    <form action="" id="formulario">
+      <h1>Página de Login</h1>
       <label for="">Usuario: </label>
       <input type="email" name="login" id="email">
       <label for="">Senha: </label>
       <input type="password" name="senha" id="senha">
 
-      <button type="button" onclick="validarLogin()">Login</button>
+      <a href="">Cadastre-se aqui!</a>
+
+      <button id="btn-login" type="button" onclick="validarLogin()">Login</button>
     </form>
     <script src="dados.js"></script>
     <script src="login.js"></script>
   </section>
+
+  <style>
+    :root {
+    font-size: 62.5%;
+    }
+
+    #formulario{
+      display: flex;
+      flex-direction: column;
+      width: 25%;
+      margin-inline: auto;
+      margin-block: 2rem;
+      font-size: 1.8rem;
+    }
+
+    input{
+      margin-block: 1rem;
+    }
+
+    #btn-login{
+      width: 12rem;
+      padding: 0.5rem;
+      margin-inline: auto;
+      margin-block: 2rem;
+      cursor: pointer;
+
+      border-radius: 1rem;
+    }
+  </style>
 </body>
 </html>
